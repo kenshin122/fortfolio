@@ -1,19 +1,19 @@
 # 김성진 포트폴리오.
 
 ## Table of content.
-1. [개요](#개요)
-1. [슈퍼마리오 모작(2010/05)](#SuperMario)
-1. [iVindictus(2011/02)](#iVindictus)
-1. [한경M&M iPAD 디지털 잡지 솔루션(2011/02)](#한경M&M iPAD 디지털 잡지 솔루션)
-1. [Android Developer Korea 운영(2011/10)](#Android Developer Korea 운영)
-1. [Turf(GPS를 이용한 땅따먹기 게임)한국 현지화(2011/12)](#Turf(GPS를 이용한 땅따먹기 게임)한국 현지화)
-2. [MyPet(졸업작품전) + HSEngine(자체제작 OpenGL엔진)(2012/01)](#MyPet(졸업작품전) + HSEngine(자체제작 OpenGL엔진))
-3. [Soul of Legend 개발(2012/03)](#Soul of Legend 개발)
-4. [유럽여행(2013/10)](#유럽여행)
-5. [데미갓워 개발(2013/12)](#데미갓워 개발)
-6. [서울디지텍고등학교 기업반 담당선생님(2015/09)](#서울디지텍고등학교 기업반 담당선생님)
-7. [트오세포럼(TOS FORUM)](#트오세포럼(TOS FORUM))
-8. [판타지선술집(가칭)](#판타지선술집(가칭))
+1. 개요
+1. 슈퍼마리오 모작(2010/05)
+1. iVindictus(2011/02)
+1. 한경M&M iPAD 디지털 잡지 솔루션(2011/02)
+1. Android Developer Korea 운영(2011/10)
+1. Turf(GPS를 이용한 땅따먹기 게임)한국 현지화(2011/12)
+2. MyPet(졸업작품전) + HSEngine(자체제작 OpenGL엔진)(2012/01)
+3. Soul of Legend 개발(2012/03)
+4. 유럽여행(2013/10)
+5. 데미갓워 개발(2013/12)
+6. 서울디지텍고등학교 기업반 담당선생님(2015/09)
+7. 트오세포럼(TOS FORUM)
+8. 판타지선술집(가칭)
 
 ## 개요
 이곳에 기재된 내용은 제가 프로그래밍에 입문했을 때부터의 내용들을 정리해둔 글입니다. 최대한 상세히 개연성있게 기재하기 위해 평어체를 쓴 점은 양해를 부탁드립니다. 제가 접했던 관련 기술에 대해서만 요약해서 보시고 싶으시다면, 해당 프로젝트의 관련기술 항목만 봐주시면 감사드리겠습니다. 이 외에도 저에 관련된 내용은 [http://blog.naver.com/kenshin122](http://blog.naver.com/kenshin122)에도 있으니 참고 부탁드립니다.
@@ -89,6 +89,7 @@ key|value
 * 부모님 잡지회사를 위해서 잡지 컨텐츠를 모바일로 볼 수 있도록 하는게 주 목적. 요즘 누가 잡지 읽어, 인터넷보는데, 대세는 디지털 컨텐츠야!  아이패드로 앱 만들어서 잡지를 보여주면 분명 읽을거야!  
 * 툴을 이용해서 페이지들을 편집이 가능. 동영상,스크롤링,인덱싱 등 다양한 기능 지원  
 * 출시 후 느낀점. 이렇게 만들어놔도 안읽는 사람은 안읽는다는걸 알게되었다.
+*[링크 https://www.youtube.com/watch?v=j5-w5UyUX18](https://www.youtube.com/watch?v=j5-w5UyUX18)
 
 ## Android Developer Korea 운영
 key|value
@@ -143,7 +144,8 @@ key|value
 * 학교는 졸업하기전에 작품을 하나 내야 졸업을 시켜주기에 만든 작품.  
 * 이전에 DirectX를 공부하긴 했지만, 모바일은 OpenGL밖에 안되더라. 그래서 OpenGLES를 기반으로 2D엔진을 만듬.(엔진이라고 하기에는 정말 조잡하긴 하지만..)  
 * OpenGLES는 정말 기초적인 렌더링 파이프라인만 지원하기때문에, vertex shader,fragment shader도 다 만들어 넣어야하고, glLookAt같은 원근투영되는 절두체를 위한 함수도 제공을 안하기에, 행렬도 전부 만들어 줘야 했다. 실제로 소요시간1개월은 OpenGL과 기본적인 AndroidSDK 배우는데 든 시간이 대부분.  
-* 컨텐츠는 단순 다마고치 키우기와 비슷. 정말 졸업을 위한 작품이었음.  
+* 컨텐츠는 단순 다마고치 키우기와 비슷. 정말 졸업을 위한 작품이었음.
+* [링크 https://www.youtube.com/watch?v=73ytQ4oEkNs](https://www.youtube.com/watch?v=73ytQ4oEkNs)
 
 
 ## Soul of Legend 개발
