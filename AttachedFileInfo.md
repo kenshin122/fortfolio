@@ -1,6 +1,6 @@
-#첨부파일 설명
+# 첨부파일 설명
 
-##Client.zip
+## Client.zip
 ![](readmeImg/game0.png)
 ![](readmeImg/game1.png)
 ![](readmeImg/game2.png)
@@ -17,7 +17,7 @@
 * RuntimeData는 서버에서 들고 있어야 할 데이터를 의미합니다.(예를들면 유저 현재 레벨 미치 현제 경험치, 가지고 있는 아이템정보 등) 관련 클래스 및 인터페이스는 IRuntimeData,IDataProvider, FIServerRuntimeData 등이 있습니다.
 * FIReq*관련 클래스는 실제 서버처럼 Request,Response방식으로 짜여져 있습니다. 서버가 없어도 테스트할수 있게끔 환경을 만들어놓은 거죠. 컨텐츠 테스트가 끝난 후에 여기에 있는 코드들을 서버로 적당히 수정해서 옮기면 바로 되도록 하기 위함입니다.
 
-##Server.zip
+## Server.zip
 * Asp.Net.Core를 사용합니다.
 * Azure에 서비스할수도 있고 AWS에도 할 수 있습니다.
 * 실행하기 위해서는 DotnetCore관련된 라이브러리 설치 후에 가능합니다. 
@@ -25,7 +25,7 @@
 * 굳이 PHP나 NodeJS등 사용해도 되지 않냐 하실 수 있지만, 제가 혼자서 다 개발을 해야하기에 C#으로 할 수 있는 방법으로 채택됬습니다.Asp.Net을 쓸수도 있었겠지만, 제가 주 개발환경이 맥이다보니 맥에서도 돌아가는 Asp.Net.Core를 채택했습니다.
 * 현재는 실행하셔도 실제 클라와 연동되진않습니다. 소스코드 보는 용도로 사용해주세요.
 
-##GameDataEditor.zip
+## GameDataEditor.zip
 ![](readmeImg/ge0.png)
 ![](readmeImg/ge1.png)
 
@@ -35,7 +35,7 @@
 * 에디터를 사용하기 위해서는 Mono가 설치되어 있어야 합니다.
 * 데이터가 많아지면 좀 느릴수도 있습니다. 최적화까진 되있진 않거든요.
 
-##BehaviorTreeEditor.zip
+## BehaviorTreeEditor.zip
 ![](readmeImg/bt0.png)
 
 * 현재 제공한 프로젝트에서는 쓰이진 않지만, RTS의 인공지능을 개발할때 쓴 Behave라는 (BehaviorTree에디터)에디터 덕을 많이 봤습니다. 그래서 직접 만들었습니다.
@@ -43,7 +43,7 @@
 * 에디터를 사용하기 위해서는 Mono가 설치되어 있어야 합니다.
 * 그냥 이런게 있구나 하고 봐주시면 감사하겠습니다.
 
-##AssetBundleLoader.zip
+## AssetBundleLoader.zip
 * 애셋번들과 관련된 스크립트이며, 실제 이전 프로젝트에서도 사용했습니다.
 * ContentsLoader는 CDN으로부터 애셋번들을 받아서 버전에 따라 패치하는 기능을 담당합니다.
 * ContentsProvider는 ContentsLoader로부터 받아진 애셋번들로 작동됩니다. 유니티의 Resources.Load처럼 경로를 주면 애셋을 로드합니다만 내부적으로 찾고자 하는 애셋이 담긴 애셋번들을 추적하여 꺼내오는 일을 해줍니다.
