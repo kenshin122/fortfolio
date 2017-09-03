@@ -1,4 +1,7 @@
-# 첨부파일 설명
+# 소스코드 설명
+
+## 다른 문서 바로 가기
+1. [포트폴리오](README.md)
 
 ## Client.zip
 ![](readmeImg/game0.png)

@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{99AC3356-1979-EA0B-8C5A-E5809FFA244F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\3rdParty\TextPic\TextPic.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\0_Core\Data\FIClientDataProvider.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\0_Core\Data\FIFakeServerDataProvider.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\0_Core\Data\FIRBaseData.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\0_Core\Data\FIRBaseDataViewer.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\0_Core\Data\FIServerDataProvider.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\0_Core\Data\IDataProvider.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\0_Core\FIDefaultRequest.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\0_Core\FIIAPHandler.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\10_ClientServerShare\FIShare.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\10_ClientServerShare\FIShareCraftFunc.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\1_Network\FIErrRelated.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\1_Network\FIHttp.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\20_ExtensionTool\FIMonoBehaviour.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\21_CLLIbExtensions\FIExtensions.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\2_StaticData\Const\GDInstKeys.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\2_StaticData\Extension\GDCostItemExtension.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\2_StaticData\Extension\GDItemDataExtension.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\2_StaticData\GDSchemeDef.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\2_StaticData\GDSchemeInst.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\Extension\FIDBOrderItemDataExtension.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\FIClientReqHandler.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\FIClientRuntimeData.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\FIClientRuntimeDataExtension.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\FIServerRuntimeData.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\FIServerRuntimeDataExtension.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqAchievement.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqAuth.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqCraft.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqCustomer.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqGetter.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqOrder.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqResource.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqSearchItem.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqShop.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqStorage.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqTest.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\3_RuntimeData\ReqHandlers\FIReqUser.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\4_View\FIDODManager.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\4_View\FILoadingView.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\4_View\FIPopupDialog.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\4_View\FIPopupDialog\FIPopupDialog_Default.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\4_View\FIPopupManager.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\4_View\FISpriteContainerForTextPic.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\4_View\FITextPic.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\4_View\FITransitionView.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\5_EasyFunc\FIEasy.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\5_EasyFunc\FIEasy_Accessor.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\5_EasyFunc\FIEasy_CraftingTable.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\5_EasyFunc\FIEasy_Resource.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\5_EasyFunc\FITestEasy.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\6_Res\FISpriteData.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\7_Sound\FIUIBtnSound.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\7_Sound\FIUINotBtnSound.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\7_Sound\FIUISoundPlayer.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\FIBuildOptions.cs" />
+     <Compile Include="Assets\7_Scripts\0_Global\FIContextBase.cs" />
+     <Compile Include="Assets\7_Scripts\1_Logo\FISceneLogo.cs" />
+     <Compile Include="Assets\7_Scripts\2_Title\FISceneTitle.cs" />
+     <Compile Include="Assets\7_Scripts\2_Title\FISceneTitle_Content.cs" />
+     <Compile Include="Assets\7_Scripts\2_Title\FISceneTitle_Login.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Etc\FITopInfo.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\FICameraControl.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\FISceneGamePlay.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\FISceneGamePlay_Camera.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\FISceneGamePlay_GameWorld.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\FISceneGamePlay_UI.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\GameWorld\Components\FIComponentCraftingTable.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\GameWorld\Components\FIComponentCustomer.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\GameWorld\Components\FIComponentSearchItem.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\GameWorld\FICustomerSlideWhenViewInside.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupAchievement.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupCraft.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupCraft\FIPopupCraft_Category.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupCraft\FIPopupCraft_CompleteSlot.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupCraft\FIPopupCraft_CraftingArea.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupCraft\FIPopupCraft_RecipeInfo.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupCustomer.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupGlobalTrade.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupLocalTrade.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupOrder.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupSearchItem.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupShop.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupShop\FIPopupShop_Other.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupShop\FIPopupShop_RealShop.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FIPopupStorage.cs" />
+     <Compile Include="Assets\7_Scripts\3_GamePlay\Popup\FITestPopup.cs" />
+     <Compile Include="Assets\7_Scripts\FIContextBindings.cs" />
+     <Compile Include="Assets\CLFramework\3rdPartyExtension\PrivateSetterContractResolver.cs" />
+     <Compile Include="Assets\CLFramework\CLIABCommunicator.cs" />
+     <Compile Include="Assets\CLFramework\CLInstaller.cs" />
+     <Compile Include="Assets\CLFramework\DI\CLCM.cs" />
+     <Compile Include="Assets\CLFramework\DI\CLContextManager.cs" />
+     <Compile Include="Assets\CLFramework\DI\CLSceneContext.cs" />
+     <Compile Include="Assets\CLFramework\DataManagement\GDExtension.cs" />
+     <Compile Include="Assets\CLFramework\DataManagement\GDManager.cs" />
+     <Compile Include="Assets\CLFramework\DataManagement\GDZenjectInstaller.cs" />
+     <Compile Include="Assets\CLFramework\Etc\CLStateUpdator.cs" />
+     <Compile Include="Assets\CLFramework\Thread\CLThreadScheduler.cs" />
+     <Compile Include="Assets\CLFramework\Thread\CLThreadSchedulerMono.cs" />
+     <Compile Include="Assets\CLFramework\View\CLLabelFormatter.cs" />
+     <Compile Include="Assets\CLFramework\View\CLScrollView.cs" />
+     <Compile Include="Assets\CLFramework\View\CLTouchableView.cs" />
+     <Compile Include="Assets\CLFramework\View\CLViewManager.cs" />
+     <Compile Include="Assets\TestAgain.cs" />
+     <Compile Include="Assets\TestFollow.cs" />
+     <Compile Include="Assets\TestFunc.cs" />
+     <Compile Include="Assets\TestText.cs" />
+     <None Include="Assets\Plugins\Spine\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\Eyes\eyes.atlas.txt" />
+     <None Include="Assets\Plugins\Spine\spine-unity\Shaders\HiddenPass.shader" />
+     <None Include="Assets\Resources\fiScheme.xml" />
+     <None Include="Assets\Plugins\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\Gauge\Gauge.atlas.txt" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Media\Imported\Shaders\Particle Alpha Blend_IgnoreFog.shader" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\FootSoldier\FS_White.atlas.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\popup.xml" />
+     <None Include="Assets\Plugins\Spine\spine-unity\Modules\CustomMaterials\readme.txt" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\Hero\hero-mesh.atlas.txt" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\Dragon\license.txt" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\Hero\license.txt" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\Raptor\raptor.atlas.txt" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\Spineboy\spineboy.atlas.txt" />
+     <None Include="Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Media\Fonts\Space.txt" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\FootSoldier\license.txt" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\Raggedy Spineboy\Raggedy Spineboy.atlas.txt" />
+     <None Include="Assets\Plugins\Spine\spine-unity\Shaders\Bones.shader" />
+     <None Include="Assets\Plugins\Zenject\LICENSE.txt" />
+     <None Include="Assets\Plugins\Spine\spine-unity\Modules\Ghost\Shaders\SkeletonGhost.shader" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Plugins\Zenject\Version.txt" />
+     <None Include="Assets\Plugins\UniRx\ReadMe.txt" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\Dragon\dragon.atlas.txt" />
+     <None Include="Assets\Plugins\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Plugins\Spine\spine-unity\Modules\SkeletonGraphic\Shaders\SkeletonGraphic.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Spine\spine-unity\Shaders\Skeleton.shader" />
+     <None Include="Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Media\Imported\Shaders\AddSmooth_Layer.shader" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\Goblins\goblins-mesh.atlas.txt" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\Spineunitygirl\Doi.atlas.txt" />
+     <None Include="Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+     <None Include="Assets\Resources\fiData.xml" />
+     <None Include="Assets\Plugins\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\Plugins\Zenject\OptionalExtras\SampleGame1 (Beginner)\Media\Imported\Shaders\Add_Layer.shader" />
+     <None Include="Assets\Plugins\Spine\spine-unity\Shaders\SkeletonLit.shader" />
+     <None Include="Assets\Plugins\Spine\Examples\Spine\FootSoldier\Equipment\Equipment.atlas.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>/Users/a1/gitProject/fantasyInn/FIUnityRenew/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/a1/gitProject/fantasyInn/FIUnityRenew/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/a1/gitProject/fantasyInn/FIUnityRenew/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/a1/gitProject/fantasyInn/FIUnityRenew/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/a1/gitProject/fantasyInn/FIUnityRenew/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>/Users/a1/gitProject/fantasyInn/FIUnityRenew/Assets/Plugins/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="DevConsole">
+ <HintPath>/Users/a1/gitProject/fantasyInn/FIUnityRenew/Assets/Plugins/DevConsole/DevConsole.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/Users/a1/gitProject/fantasyInn/FIUnityRenew/Assets/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{5E958B0A-63F3-11E3-4AF6-C5A4A90E2EEE}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

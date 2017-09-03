@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/7_Scripts/0_Global/10_ClientServerShare/FIShareCraftFunc.cs">
+    <Files>
+      <File FileName="Assets/7_Scripts/3_GamePlay/Popup/FIPopupCraft/FIPopupCraft_CraftingArea.cs" Line="1" Column="1" />
+      <File FileName="Assets/7_Scripts/0_Global/10_ClientServerShare/FIShareCraftFunc.cs" Line="23" Column="26" />
+      <File FileName="../../../MyProjects/fantasyInn/FIUnity/Assets/Scripts/GDRExtension/GDRCookerFunc.cs" Line="1" Column="1" />
+      <File FileName="Assets/7_Scripts/3_GamePlay/FISceneGamePlay.cs" Line="1" Column="1" />
+      <File FileName="Assets/7_Scripts/3_GamePlay/Popup/FIPopupCraft/FIPopupCraft_CompleteSlot.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

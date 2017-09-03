@@ -1,0 +1,2345 @@
+<root>
+  <instCnt>1245</instCnt>
+  <contentDic>
+    <globalInfo id="1" schemeTypeID="1" isStruct="False">
+      <diaPerMinute isArray="False" type="INT" schemeID="0">1</diaPerMinute>
+      <tradeServantCnt isArray="False" type="INT" schemeID="0">3</tradeServantCnt>
+      <specialCustomerHeartCap isArray="False" type="INT" schemeID="0">100</specialCustomerHeartCap>
+      <orderRegenTime isArray="False" type="TIMESPAN" schemeID="0">00:00:20</orderRegenTime>
+      <customerRegenTime isArray="False" type="TIMESPAN" schemeID="0">00:00:10</customerRegenTime>
+      <totalCraftingTableCnt isArray="False" type="INT" schemeID="0">8</totalCraftingTableCnt>
+      <totalCraftedCompleteCnt isArray="False" type="INT" schemeID="0">6</totalCraftedCompleteCnt>
+    </globalInfo>
+    <goldPoint id="7" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">NotInv,Current</type>
+      <name isArray="False" type="STRING" schemeID="0">골드</name>
+      <imageName isArray="False" type="STRING" schemeID="0">goldPoint</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">1</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </goldPoint>
+    <diaPoint id="8" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">NotInv,Current</type>
+      <name isArray="False" type="STRING" schemeID="0">다이아</name>
+      <imageName isArray="False" type="STRING" schemeID="0">diaPoint</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">1</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </diaPoint>
+    <userExp id="9" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">NotInv,Current</type>
+      <name isArray="False" type="STRING" schemeID="0">유저 경험치</name>
+      <imageName isArray="False" type="STRING" schemeID="0"></imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </userExp>
+    <researchPoint id="10" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">NotInv,Current</type>
+      <name isArray="False" type="STRING" schemeID="0">연구 포인트</name>
+      <imageName isArray="False" type="STRING" schemeID="0"></imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </researchPoint>
+    <farmItem0 id="58" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">Crop</type>
+      <name isArray="False" type="STRING" schemeID="0">생산물0</name>
+      <imageName isArray="False" type="STRING" schemeID="0">farmItem0</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">1</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </farmItem0>
+    <farmItem1 id="59" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">Crop</type>
+      <name isArray="False" type="STRING" schemeID="0">생산물1</name>
+      <imageName isArray="False" type="STRING" schemeID="0">farmItem1</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">1</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </farmItem1>
+    <farmItem2 id="60" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">Crop</type>
+      <name isArray="False" type="STRING" schemeID="0">생산물2</name>
+      <imageName isArray="False" type="STRING" schemeID="0">farmItem2</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">2</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">1</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </farmItem2>
+    <farmItem3 id="61" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">Crop</type>
+      <name isArray="False" type="STRING" schemeID="0">생산물3</name>
+      <imageName isArray="False" type="STRING" schemeID="0">farmItem3</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">2</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">1</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </farmItem3>
+    <farmItem4 id="62" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">Crop</type>
+      <name isArray="False" type="STRING" schemeID="0">생산물4</name>
+      <imageName isArray="False" type="STRING" schemeID="0">farmItem4</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">3</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">2</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </farmItem4>
+    <farmItem5 id="63" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">Crop</type>
+      <name isArray="False" type="STRING" schemeID="0">생산물5</name>
+      <imageName isArray="False" type="STRING" schemeID="0">farmItem5</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">3</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">2</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </farmItem5>
+    <craftedItem0 id="64" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물0</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem0</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">4</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem0>
+    <craftedItem1 id="65" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물1</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem1</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">4</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem1>
+    <craftedItem2 id="66" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물2</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem2</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">4</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">1</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem2>
+    <craftedItem3 id="67" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물3</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem3</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">5</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">1</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem3>
+    <craftedItem4 id="68" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물4</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem4</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">5</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">2</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem4>
+    <craftedItem5 id="69" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물5</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem5</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">5</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">2</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem5>
+    <craftedItem6 id="70" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물6</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem6</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">6</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">3</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem6>
+    <craftedItem7 id="71" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물7</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem7</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">6</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">3</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem7>
+    <specialItem0 id="72" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">DropFromMission</type>
+      <name isArray="False" type="STRING" schemeID="0">특수재료0</name>
+      <imageName isArray="False" type="STRING" schemeID="0">specialItem0</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">10</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </specialItem0>
+    <specialItem1 id="73" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">DropFromMission</type>
+      <name isArray="False" type="STRING" schemeID="0">특수재료1</name>
+      <imageName isArray="False" type="STRING" schemeID="0">specialItem1</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">10</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </specialItem1>
+    <specialItem2 id="74" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">DropFromMission</type>
+      <name isArray="False" type="STRING" schemeID="0">특수재료2</name>
+      <imageName isArray="False" type="STRING" schemeID="0">specialItem2</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">10</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </specialItem2>
+    <craftRecipe0 id="87" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피0</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:03</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>453</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>485</obj>
+        <obj>486</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Bread</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">0</unlockReqGold>
+    </craftRecipe0>
+    <craftRecipe1 id="90" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피1</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:10</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>455</obj>
+        <obj>456</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>487</obj>
+        <obj>488</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Bread</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe1>
+    <craftRecipe2 id="93" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피2</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:30</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>457</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>489</obj>
+        <obj>490</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Bread</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe2>
+    <craftRecipe3 id="96" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피3</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:40</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>459</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>491</obj>
+        <obj>492</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Bread</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe3>
+    <craftRecipe4 id="99" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피4</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:50</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>461</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>493</obj>
+        <obj>494</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Bread</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe4>
+    <craftRecipe5 id="102" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피5</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:10</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>463</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>495</obj>
+        <obj>496</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Japanese</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe5>
+    <craftRecipe6 id="105" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피6</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:20</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>465</obj>
+        <obj>466</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>497</obj>
+        <obj>498</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Japanese</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe6>
+    <craftRecipe7 id="108" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피7</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:30</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">2</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>467</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>499</obj>
+        <obj>500</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Japanese</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe7>
+    <craftRecipe8 id="111" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피8</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:40</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">3</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>469</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>501</obj>
+        <obj>502</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Japanese</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe8>
+    <craftRecipe9 id="114" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피9</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:50</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">4</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>471</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>503</obj>
+        <obj>504</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Japanese</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe9>
+    <craftRecipe10 id="117" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피10</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:10</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>473</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>505</obj>
+        <obj>506</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Western</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe10>
+    <craftRecipe11 id="120" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피11</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:20</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">1</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>475</obj>
+        <obj>476</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>507</obj>
+        <obj>508</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Western</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe11>
+    <craftRecipe12 id="123" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피12</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:30</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">2</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>477</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>509</obj>
+        <obj>510</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Western</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe12>
+    <craftRecipe13 id="126" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피13</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:40</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">3</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>479</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>511</obj>
+        <obj>512</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Western</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">100</unlockReqGold>
+    </craftRecipe13>
+    <craftRecipe14 id="129" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피14</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:00:50</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">4</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>481</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>513</obj>
+        <obj>514</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Western</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">0</unlockReqGold>
+    </craftRecipe14>
+    <craftRecipe15 id="132" schemeTypeID="51" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작레시피15</name>
+      <reqTime isArray="False" type="TIMESPAN" schemeID="0">00:01:20</reqTime>
+      <unlockLv isArray="False" type="INT" schemeID="0">4</unlockLv>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>483</obj>
+        <obj>484</obj>
+      </reqItemArr>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>515</obj>
+        <obj>516</obj>
+      </rewardArr>
+      <category isArray="False" type="ENUM" schemeID="97">Western</category>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">0</unlockReqGold>
+    </craftRecipe15>
+    <craftedItem8 id="172" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물8</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem8</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">6</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">4</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem8>
+    <craftedItem9 id="173" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물9</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem9</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">6</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">4</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem9>
+    <craftedItem10 id="174" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물10</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem10</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">7</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">5</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem10>
+    <craftedItem11 id="175" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물11</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem11</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">7</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">5</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem11>
+    <craftedItem12 id="176" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물12</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem12</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">7</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">6</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem12>
+    <craftedItem13 id="177" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물13</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem13</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">8</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">6</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem13>
+    <craftedItem14 id="178" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물14</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem14</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">8</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">7</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem14>
+    <craftedItem15 id="179" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">CustomerEat</type>
+      <name isArray="False" type="STRING" schemeID="0">제작물15</name>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem15</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">8</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">7</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">1</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">3</baseReqMax>
+    </craftedItem15>
+    <_0 id="355" schemeTypeID="35" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <desc isArray="False" type="STRING" schemeID="0">유저 레벨 {0}이상</desc>
+    </_0>
+    <_1 id="356" schemeTypeID="35" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="33">CostItem</type>
+      <desc isArray="False" type="STRING" schemeID="0">아이템 {0} {1}개 소모</desc>
+    </_1>
+    <_2 id="357" schemeTypeID="35" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="33">StarPointOver</type>
+      <desc isArray="False" type="STRING" schemeID="0">별포인트 {0}이상</desc>
+    </_2>
+    <_0 id="358" schemeTypeID="38" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="36">InsertItem</type>
+      <desc isArray="False" type="STRING" schemeID="0">아이템 {0} {1}개 획득</desc>
+    </_0>
+    <_1 id="359" schemeTypeID="38" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="36">ConsumeItem</type>
+      <desc isArray="False" type="STRING" schemeID="0">아이템 {0} {1}개 소모</desc>
+    </_1>
+    <_0 id="390" schemeTypeID="59" isStruct="False">
+      <size isArray="False" type="INT" schemeID="0">2000</size>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>535</obj>
+      </reqItemArr>
+    </_0>
+    <_1 id="392" schemeTypeID="59" isStruct="False">
+      <size isArray="False" type="INT" schemeID="0">100</size>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>536</obj>
+      </reqItemArr>
+    </_1>
+    <_2 id="394" schemeTypeID="59" isStruct="False">
+      <size isArray="False" type="INT" schemeID="0">110</size>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>537</obj>
+      </reqItemArr>
+    </_2>
+    <_3 id="396" schemeTypeID="59" isStruct="False">
+      <size isArray="False" type="INT" schemeID="0">120</size>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>538</obj>
+      </reqItemArr>
+    </_3>
+    <_4 id="398" schemeTypeID="59" isStruct="False">
+      <size isArray="False" type="INT" schemeID="0">130</size>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>539</obj>
+      </reqItemArr>
+    </_4>
+    <_5 id="400" schemeTypeID="59" isStruct="False">
+      <size isArray="False" type="INT" schemeID="0">140</size>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>540</obj>
+      </reqItemArr>
+    </_5>
+    <_6 id="402" schemeTypeID="59" isStruct="False">
+      <size isArray="False" type="INT" schemeID="0">150</size>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>541</obj>
+      </reqItemArr>
+    </_6>
+    <_7 id="404" schemeTypeID="59" isStruct="False">
+      <size isArray="False" type="INT" schemeID="0">160</size>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>542</obj>
+      </reqItemArr>
+    </_7>
+    <_8 id="406" schemeTypeID="59" isStruct="False">
+      <size isArray="False" type="INT" schemeID="0">170</size>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>543</obj>
+      </reqItemArr>
+    </_8>
+    <_9 id="408" schemeTypeID="59" isStruct="False">
+      <size isArray="False" type="INT" schemeID="0">180</size>
+      <reqItemArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>544</obj>
+      </reqItemArr>
+    </_9>
+    <_0 id="410" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">0</reqExp>
+    </_0>
+    <_1 id="411" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">15</reqExp>
+    </_1>
+    <_2 id="412" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">20</reqExp>
+    </_2>
+    <_3 id="413" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">300</reqExp>
+    </_3>
+    <_4 id="414" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">400</reqExp>
+    </_4>
+    <_5 id="415" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">500</reqExp>
+    </_5>
+    <_6 id="416" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">600</reqExp>
+    </_6>
+    <_7 id="417" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">700</reqExp>
+    </_7>
+    <_8 id="418" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">800</reqExp>
+    </_8>
+    <_9 id="419" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">900</reqExp>
+    </_9>
+    <s_CostItemInfo_453 id="453" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">58</item>
+    </s_CostItemInfo_453>
+    <s_CostItemInfo_455 id="455" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">58</item>
+    </s_CostItemInfo_455>
+    <s_CostItemInfo_456 id="456" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">2</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">58</item>
+    </s_CostItemInfo_456>
+    <s_CostItemInfo_457 id="457" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">60</item>
+    </s_CostItemInfo_457>
+    <s_CostItemInfo_459 id="459" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">61</item>
+    </s_CostItemInfo_459>
+    <s_CostItemInfo_461 id="461" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">62</item>
+    </s_CostItemInfo_461>
+    <s_CostItemInfo_463 id="463" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">58</item>
+    </s_CostItemInfo_463>
+    <s_CostItemInfo_465 id="465" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">59</item>
+    </s_CostItemInfo_465>
+    <s_CostItemInfo_466 id="466" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">2</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">58</item>
+    </s_CostItemInfo_466>
+    <s_CostItemInfo_467 id="467" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">60</item>
+    </s_CostItemInfo_467>
+    <s_CostItemInfo_469 id="469" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">61</item>
+    </s_CostItemInfo_469>
+    <s_CostItemInfo_471 id="471" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">62</item>
+    </s_CostItemInfo_471>
+    <s_CostItemInfo_473 id="473" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">58</item>
+    </s_CostItemInfo_473>
+    <s_CostItemInfo_475 id="475" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">59</item>
+    </s_CostItemInfo_475>
+    <s_CostItemInfo_476 id="476" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">2</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">58</item>
+    </s_CostItemInfo_476>
+    <s_CostItemInfo_477 id="477" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">60</item>
+    </s_CostItemInfo_477>
+    <s_CostItemInfo_479 id="479" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">61</item>
+    </s_CostItemInfo_479>
+    <s_CostItemInfo_481 id="481" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">62</item>
+    </s_CostItemInfo_481>
+    <s_CostItemInfo_483 id="483" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">58</item>
+    </s_CostItemInfo_483>
+    <s_CostItemInfo_484 id="484" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">2</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">58</item>
+    </s_CostItemInfo_484>
+    <s_CostItemInfo_485 id="485" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">64</item>
+    </s_CostItemInfo_485>
+    <s_CostItemInfo_486 id="486" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">50</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_486>
+    <s_CostItemInfo_487 id="487" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">65</item>
+    </s_CostItemInfo_487>
+    <s_CostItemInfo_488 id="488" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">100</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_488>
+    <s_CostItemInfo_489 id="489" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">66</item>
+    </s_CostItemInfo_489>
+    <s_CostItemInfo_490 id="490" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">150</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_490>
+    <s_CostItemInfo_491 id="491" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">67</item>
+    </s_CostItemInfo_491>
+    <s_CostItemInfo_492 id="492" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">200</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_492>
+    <s_CostItemInfo_493 id="493" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">68</item>
+    </s_CostItemInfo_493>
+    <s_CostItemInfo_494 id="494" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">250</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_494>
+    <s_CostItemInfo_495 id="495" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">69</item>
+    </s_CostItemInfo_495>
+    <s_CostItemInfo_496 id="496" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">50</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_496>
+    <s_CostItemInfo_497 id="497" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">70</item>
+    </s_CostItemInfo_497>
+    <s_CostItemInfo_498 id="498" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">100</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_498>
+    <s_CostItemInfo_499 id="499" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">71</item>
+    </s_CostItemInfo_499>
+    <s_CostItemInfo_500 id="500" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">150</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_500>
+    <s_CostItemInfo_501 id="501" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">172</item>
+    </s_CostItemInfo_501>
+    <s_CostItemInfo_502 id="502" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">200</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_502>
+    <s_CostItemInfo_503 id="503" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">173</item>
+    </s_CostItemInfo_503>
+    <s_CostItemInfo_504 id="504" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">250</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_504>
+    <s_CostItemInfo_505 id="505" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">174</item>
+    </s_CostItemInfo_505>
+    <s_CostItemInfo_506 id="506" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">50</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_506>
+    <s_CostItemInfo_507 id="507" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">175</item>
+    </s_CostItemInfo_507>
+    <s_CostItemInfo_508 id="508" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">100</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_508>
+    <s_CostItemInfo_509 id="509" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">176</item>
+    </s_CostItemInfo_509>
+    <s_CostItemInfo_510 id="510" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">150</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_510>
+    <s_CostItemInfo_511 id="511" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">177</item>
+    </s_CostItemInfo_511>
+    <s_CostItemInfo_512 id="512" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">200</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_512>
+    <s_CostItemInfo_513 id="513" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">178</item>
+    </s_CostItemInfo_513>
+    <s_CostItemInfo_514 id="514" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">250</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_514>
+    <s_CostItemInfo_515 id="515" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">1</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">179</item>
+    </s_CostItemInfo_515>
+    <s_CostItemInfo_516 id="516" schemeTypeID="63" isStruct="True">
+      <cnt isArray="False" type="INT" schemeID="0">50</cnt>
+      <item isArray="False" type="CUSTOM" schemeID="40">9</item>
+    </s_CostItemInfo_516>
+    <s_CostItemInfo_535 id="535" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">100</cnt>
+    </s_CostItemInfo_535>
+    <s_CostItemInfo_536 id="536" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">200</cnt>
+    </s_CostItemInfo_536>
+    <s_CostItemInfo_537 id="537" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">300</cnt>
+    </s_CostItemInfo_537>
+    <s_CostItemInfo_538 id="538" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">400</cnt>
+    </s_CostItemInfo_538>
+    <s_CostItemInfo_539 id="539" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">500</cnt>
+    </s_CostItemInfo_539>
+    <s_CostItemInfo_540 id="540" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">600</cnt>
+    </s_CostItemInfo_540>
+    <s_CostItemInfo_541 id="541" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">700</cnt>
+    </s_CostItemInfo_541>
+    <s_CostItemInfo_542 id="542" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">800</cnt>
+    </s_CostItemInfo_542>
+    <s_CostItemInfo_543 id="543" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">900</cnt>
+    </s_CostItemInfo_543>
+    <s_CostItemInfo_544 id="544" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">1000</cnt>
+    </s_CostItemInfo_544>
+    <_0 id="561" schemeTypeID="64" isStruct="False">
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <name isArray="False" type="STRING" schemeID="0">목수</name>
+      <unlockableType isArray="False" type="ENUM" schemeID="100">Order</unlockableType>
+      <speechArr isArray="True" type="STRING" schemeID="0">
+        <obj>나무하기 좋은 날씨군요!</obj>
+        <obj>헥헥! 더운 날씨군요!</obj>
+      </speechArr>
+    </_0>
+    <_1 id="562" schemeTypeID="64" isStruct="False">
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <name isArray="False" type="STRING" schemeID="0">교역상인</name>
+      <unlockableType isArray="False" type="ENUM" schemeID="100">GlobalMerchant</unlockableType>
+      <speechArr isArray="True" type="STRING" schemeID="0">
+        <obj>헬로우! 방갑습네다!</obj>
+        <obj>물건이 참 만쿤요 네네!</obj>
+      </speechArr>
+    </_1>
+    <_2 id="563" schemeTypeID="64" isStruct="False">
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <name isArray="False" type="STRING" schemeID="0">행상인</name>
+      <unlockableType isArray="False" type="ENUM" schemeID="100">LocalMerchant</unlockableType>
+      <speechArr isArray="True" type="STRING" schemeID="0">
+        <obj>..안녕하슈..</obj>
+        <obj>..물건 사러 왔슈..</obj>
+      </speechArr>
+    </_2>
+    <_3 id="564" schemeTypeID="64" isStruct="False">
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <name isArray="False" type="STRING" schemeID="0">도적</name>
+      <unlockableType isArray="False" type="ENUM" schemeID="100">SearchItem</unlockableType>
+      <speechArr isArray="True" type="STRING" schemeID="0">
+        <obj>흐흐.. 방갑소</obj>
+        <obj>여긴 탐나는 물건이 많군..</obj>
+      </speechArr>
+    </_3>
+    <_4 id="565" schemeTypeID="64" isStruct="False">
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <name isArray="False" type="STRING" schemeID="0">선장</name>
+      <unlockableType isArray="False" type="ENUM" schemeID="100">BingoMerchant</unlockableType>
+      <speechArr isArray="True" type="STRING" schemeID="0">
+        <obj>Yarr! 바다의 왕자가 왔다!</obj>
+        <obj>그란두라인을 넘으려고 한다네!</obj>
+      </speechArr>
+    </_4>
+    <_5 id="566" schemeTypeID="64" isStruct="False">
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <name isArray="False" type="STRING" schemeID="0">마법사</name>
+      <unlockableType isArray="False" type="ENUM" schemeID="100">MagicBuff</unlockableType>
+      <speechArr isArray="True" type="STRING" schemeID="0">
+        <obj>모든 것은 하나로 통하죠</obj>
+        <obj>이런 곳에 이렇게 좋은 술집이 있었군요</obj>
+      </speechArr>
+    </_5>
+    <_0 id="592" schemeTypeID="70" isStruct="False">
+      <condArr isArray="True" type="CUSTOM" schemeID="34" />
+    </_0>
+    <_1 id="593" schemeTypeID="70" isStruct="False">
+      <condArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>597</obj>
+        <obj>598</obj>
+      </condArr>
+    </_1>
+    <_2 id="594" schemeTypeID="70" isStruct="False">
+      <condArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>599</obj>
+        <obj>600</obj>
+      </condArr>
+    </_2>
+    <s_ConditionData_597 id="597" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">2</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_597>
+    <s_ConditionData_598 id="598" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">CostItem</type>
+      <value0 isArray="False" type="STRING" schemeID="0">goldPoint</value0>
+      <value1 isArray="False" type="STRING" schemeID="0">200</value1>
+    </s_ConditionData_598>
+    <s_ConditionData_599 id="599" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">3</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_599>
+    <s_ConditionData_600 id="600" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">CostItem</type>
+      <value0 isArray="False" type="STRING" schemeID="0">goldPoint</value0>
+      <value1 isArray="False" type="STRING" schemeID="0">300</value1>
+    </s_ConditionData_600>
+    <_0 id="601" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:10</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">1</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">2</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">1</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">2</rewardItemMax>
+    </_0>
+    <_1 id="602" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:15</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">2</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">4</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">2</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">4</rewardItemMax>
+    </_1>
+    <_2 id="603" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:20</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_2>
+    <_3 id="604" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:25</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_3>
+    <_4 id="605" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:30</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_4>
+    <_5 id="607" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:35</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_5>
+    <_6 id="608" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:40</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_6>
+    <_7 id="609" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:45</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_7>
+    <_8 id="610" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:50</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_8>
+    <_9 id="611" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:55</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_9>
+    <craftedItem0 id="624" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem0>
+    <craftedItem1 id="625" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem1>
+    <craftedItem2 id="626" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem2>
+    <craftedItem3 id="627" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem3>
+    <craftedItem4 id="629" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem4>
+    <craftedItem5 id="630" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem5>
+    <craftedItem6 id="631" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem6>
+    <craftedItem7 id="632" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem7>
+    <craftedItem8 id="633" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem8>
+    <craftedItem9 id="634" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem9>
+    <craftedItem10 id="635" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem10>
+    <craftedItem11 id="636" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem11>
+    <craftedItem12 id="637" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem12>
+    <craftedItem13 id="638" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem13>
+    <craftedItem14 id="639" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem14>
+    <craftedItem15 id="640" schemeTypeID="73" isStruct="False">
+      <rewardUserExp isArray="False" type="INT" schemeID="0">100</rewardUserExp>
+    </craftedItem15>
+    <trade0 id="675" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">AcquireFromTrade</type>
+      <name isArray="False" type="STRING" schemeID="0">래드스톤</name>
+      <imageName isArray="False" type="STRING" schemeID="0">trade0</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">5</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </trade0>
+    <trade1 id="676" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">AcquireFromTrade</type>
+      <name isArray="False" type="STRING" schemeID="0">그린스톤</name>
+      <imageName isArray="False" type="STRING" schemeID="0">trade1</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">5</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </trade1>
+    <trade2 id="677" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">AcquireFromTrade</type>
+      <name isArray="False" type="STRING" schemeID="0">블루스톤</name>
+      <imageName isArray="False" type="STRING" schemeID="0">trade2</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">5</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">100</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </trade2>
+    <_3 id="705" schemeTypeID="70" isStruct="False">
+      <condArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>707</obj>
+        <obj>710</obj>
+      </condArr>
+    </_3>
+    <_4 id="706" schemeTypeID="70" isStruct="False">
+      <condArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>709</obj>
+        <obj>711</obj>
+      </condArr>
+    </_4>
+    <s_ConditionData_707 id="707" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">4</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_707>
+    <s_ConditionData_709 id="709" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">5</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_709>
+    <s_ConditionData_710 id="710" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">CostItem</type>
+      <value0 isArray="False" type="STRING" schemeID="0">goldPoint</value0>
+      <value1 isArray="False" type="STRING" schemeID="0">100</value1>
+    </s_ConditionData_710>
+    <s_ConditionData_711 id="711" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">CostItem</type>
+      <value0 isArray="False" type="STRING" schemeID="0">goldPoint</value0>
+      <value1 isArray="False" type="STRING" schemeID="0">100</value1>
+    </s_ConditionData_711>
+    <castleTrade0 id="847" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57"></type>
+      <name isArray="False" type="STRING" schemeID="0"></name>
+      <imageName isArray="False" type="STRING" schemeID="0"></imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </castleTrade0>
+    <castleTrade1 id="848" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57"></type>
+      <name isArray="False" type="STRING" schemeID="0"></name>
+      <imageName isArray="False" type="STRING" schemeID="0"></imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </castleTrade1>
+    <castleTrade2 id="849" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57"></type>
+      <name isArray="False" type="STRING" schemeID="0"></name>
+      <imageName isArray="False" type="STRING" schemeID="0"></imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </castleTrade2>
+    <_0 id="876" schemeTypeID="82" isStruct="False">
+      <refreshTime isArray="False" type="TIMESPAN" schemeID="0">00:01:00</refreshTime>
+      <maxGivenItemCnt isArray="False" type="INT" schemeID="0">3</maxGivenItemCnt>
+    </_0>
+    <_0 id="880" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">3</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>905</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">1</reqDia>
+    </_0>
+    <_1 id="881" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">4</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>906</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">2</reqDia>
+    </_1>
+    <_2 id="882" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">5</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>907</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">3</reqDia>
+    </_2>
+    <_3 id="883" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">6</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>908</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">4</reqDia>
+    </_3>
+    <_4 id="884" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">7</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>909</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">5</reqDia>
+    </_4>
+    <_5 id="885" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">8</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>910</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">6</reqDia>
+    </_5>
+    <_6 id="886" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">9</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>911</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">7</reqDia>
+    </_6>
+    <_7 id="887" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">10</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>912</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">8</reqDia>
+    </_7>
+    <_8 id="888" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">11</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>913</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">9</reqDia>
+    </_8>
+    <_9 id="889" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">12</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>914</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">1</reqDia>
+    </_9>
+    <_10 id="890" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">13</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>915</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">2</reqDia>
+    </_10>
+    <_11 id="891" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">14</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>916</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">3</reqDia>
+    </_11>
+    <_12 id="892" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">15</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>917</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">4</reqDia>
+    </_12>
+    <_13 id="893" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">16</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>918</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">5</reqDia>
+    </_13>
+    <_14 id="894" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">17</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>919</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">6</reqDia>
+    </_14>
+    <_15 id="895" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">18</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>920</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">7</reqDia>
+    </_15>
+    <_16 id="896" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">19</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>921</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">8</reqDia>
+    </_16>
+    <_17 id="897" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">20</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>922</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">9</reqDia>
+    </_17>
+    <_18 id="898" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">21</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>923</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">1</reqDia>
+    </_18>
+    <_19 id="899" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">22</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>924</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">2</reqDia>
+    </_19>
+    <_20 id="900" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">23</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>925</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">3</reqDia>
+    </_20>
+    <_21 id="901" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">24</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>926</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">4</reqDia>
+    </_21>
+    <_22 id="902" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">25</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>927</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">5</reqDia>
+    </_22>
+    <_23 id="903" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">26</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>928</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">6</reqDia>
+    </_23>
+    <_24 id="904" schemeTypeID="83" isStruct="False">
+      <slotCnt isArray="False" type="INT" schemeID="0">27</slotCnt>
+      <unlockCondArr isArray="True" type="CUSTOM" schemeID="34">
+        <obj>929</obj>
+      </unlockCondArr>
+      <reqDia isArray="False" type="INT" schemeID="0">7</reqDia>
+    </_24>
+    <s_ConditionData_905 id="905" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">1</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_905>
+    <s_ConditionData_906 id="906" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">1</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_906>
+    <s_ConditionData_907 id="907" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">2</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_907>
+    <s_ConditionData_908 id="908" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">2</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_908>
+    <s_ConditionData_909 id="909" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">3</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_909>
+    <s_ConditionData_910 id="910" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">3</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_910>
+    <s_ConditionData_911 id="911" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">4</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_911>
+    <s_ConditionData_912 id="912" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">4</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_912>
+    <s_ConditionData_913 id="913" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">5</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_913>
+    <s_ConditionData_914 id="914" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">5</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_914>
+    <s_ConditionData_915 id="915" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">6</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_915>
+    <s_ConditionData_916 id="916" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">6</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_916>
+    <s_ConditionData_917 id="917" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">7</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_917>
+    <s_ConditionData_918 id="918" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">7</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_918>
+    <s_ConditionData_919 id="919" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">8</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_919>
+    <s_ConditionData_920 id="920" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">8</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_920>
+    <s_ConditionData_921 id="921" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">9</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_921>
+    <s_ConditionData_922 id="922" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">9</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_922>
+    <s_ConditionData_923 id="923" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">10</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_923>
+    <s_ConditionData_924 id="924" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">10</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_924>
+    <s_ConditionData_925 id="925" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">11</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_925>
+    <s_ConditionData_926 id="926" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">11</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_926>
+    <s_ConditionData_927 id="927" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">12</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_927>
+    <s_ConditionData_928 id="928" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">12</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_928>
+    <s_ConditionData_929 id="929" schemeTypeID="34" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="33">UserLvOver</type>
+      <value0 isArray="False" type="STRING" schemeID="0">13</value0>
+      <value1 isArray="False" type="STRING" schemeID="0"></value1>
+    </s_ConditionData_929>
+    <_10 id="958" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_10>
+    <_11 id="959" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_11>
+    <_12 id="960" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_12>
+    <_13 id="961" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_13>
+    <_14 id="962" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_14>
+    <_15 id="963" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_15>
+    <_16 id="964" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_16>
+    <_17 id="965" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_17>
+    <_18 id="966" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_18>
+    <_19 id="967" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_19>
+    <_20 id="968" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_20>
+    <_21 id="969" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_21>
+    <_22 id="970" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_22>
+    <_23 id="971" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_23>
+    <_24 id="972" schemeTypeID="60" isStruct="False">
+      <reqExp isArray="False" type="INT" schemeID="0">1000</reqExp>
+    </_24>
+    <_10 id="973" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_10>
+    <_11 id="974" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_11>
+    <_12 id="975" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_12>
+    <_13 id="976" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_13>
+    <_14 id="977" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_14>
+    <_15 id="978" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_15>
+    <_16 id="979" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_16>
+    <_17 id="980" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_17>
+    <_18 id="981" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_18>
+    <_19 id="982" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_19>
+    <_20 id="983" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_20>
+    <_21 id="984" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_21>
+    <_22 id="985" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_22>
+    <_23 id="986" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_23>
+    <_24 id="987" schemeTypeID="71" isStruct="False">
+      <returnTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</returnTime>
+      <reqItemMin isArray="False" type="INT" schemeID="0">3</reqItemMin>
+      <reqItemMax isArray="False" type="INT" schemeID="0">6</reqItemMax>
+      <rewardItemMin isArray="False" type="INT" schemeID="0">3</rewardItemMin>
+      <rewardItemMax isArray="False" type="INT" schemeID="0">6</rewardItemMax>
+    </_24>
+    <_single id="1038" schemeTypeID="86" isStruct="False">
+      <orderPerc isArray="False" type="INT" schemeID="0">120</orderPerc>
+      <sellItemPerc isArray="False" type="INT" schemeID="0">80</sellItemPerc>
+      <searchItemPerc isArray="False" type="INT" schemeID="0">200</searchItemPerc>
+      <customerPerc isArray="False" type="INT" schemeID="0">120</customerPerc>
+    </_single>
+    <searchTicket id="1043" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57"></type>
+      <name isArray="False" type="STRING" schemeID="0">탐정티켓</name>
+      <imageName isArray="False" type="STRING" schemeID="0"></imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </searchTicket>
+    <_0 id="1044" schemeTypeID="88" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">3회</name>
+      <reward isArray="False" type="CUSTOM" schemeID="63">1045</reward>
+      <reqDia isArray="False" type="INT" schemeID="0">10</reqDia>
+    </_0>
+    <s_CostItemInfo_1045 id="1045" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">1043</item>
+      <cnt isArray="False" type="INT" schemeID="0">3</cnt>
+    </s_CostItemInfo_1045>
+    <_1 id="1046" schemeTypeID="88" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">10회</name>
+      <reward isArray="False" type="CUSTOM" schemeID="63">1047</reward>
+      <reqDia isArray="False" type="INT" schemeID="0">20</reqDia>
+    </_1>
+    <s_CostItemInfo_1047 id="1047" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">1043</item>
+      <cnt isArray="False" type="INT" schemeID="0">10</cnt>
+    </s_CostItemInfo_1047>
+    <_2 id="1048" schemeTypeID="88" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">30</name>
+      <reward isArray="False" type="CUSTOM" schemeID="63">1049</reward>
+      <reqDia isArray="False" type="INT" schemeID="0">30</reqDia>
+    </_2>
+    <s_CostItemInfo_1049 id="1049" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">1043</item>
+      <cnt isArray="False" type="INT" schemeID="0">30</cnt>
+    </s_CostItemInfo_1049>
+    <_0 id="1050" schemeTypeID="89" isStruct="False">
+      <restingTime isArray="False" type="TIMESPAN" schemeID="0">00:00:30</restingTime>
+      <gettingTime isArray="False" type="TIMESPAN" schemeID="0">00:00:30</gettingTime>
+      <gettingCnt isArray="False" type="INT" schemeID="0">3</gettingCnt>
+    </_0>
+    <mineTool0 id="1051" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">NotInv</type>
+      <name isArray="False" type="STRING" schemeID="0">곡괭이</name>
+      <imageName isArray="False" type="STRING" schemeID="0">mineTool0</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </mineTool0>
+    <mineTool1 id="1052" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">NotInv</type>
+      <name isArray="False" type="STRING" schemeID="0">폭탄1</name>
+      <imageName isArray="False" type="STRING" schemeID="0">mineTool1</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </mineTool1>
+    <mineTool2 id="1053" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">NotInv</type>
+      <name isArray="False" type="STRING" schemeID="0">폭탄2</name>
+      <imageName isArray="False" type="STRING" schemeID="0">mineTool2</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </mineTool2>
+    <mineTool3 id="1054" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">NotInv</type>
+      <name isArray="False" type="STRING" schemeID="0">폭탄3</name>
+      <imageName isArray="False" type="STRING" schemeID="0">mineTool3</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </mineTool3>
+    <minePiece0 id="1056" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">NotInv</type>
+      <name isArray="False" type="STRING" schemeID="0">하급조각</name>
+      <imageName isArray="False" type="STRING" schemeID="0">minePiece0</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </minePiece0>
+    <minePiece1 id="1057" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">NotInv</type>
+      <name isArray="False" type="STRING" schemeID="0">중급조각</name>
+      <imageName isArray="False" type="STRING" schemeID="0">minePiece1</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </minePiece1>
+    <minePiece2 id="1058" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57">NotInv</type>
+      <name isArray="False" type="STRING" schemeID="0">상급조각</name>
+      <imageName isArray="False" type="STRING" schemeID="0">minePiece2</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </minePiece2>
+    <mineDust0 id="1059" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57"></type>
+      <name isArray="False" type="STRING" schemeID="0">하급가루</name>
+      <imageName isArray="False" type="STRING" schemeID="0">mineDust0</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </mineDust0>
+    <mineDust1 id="1060" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57"></type>
+      <name isArray="False" type="STRING" schemeID="0">중급가루</name>
+      <imageName isArray="False" type="STRING" schemeID="0">mineDust1</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </mineDust1>
+    <mineDust2 id="1061" schemeTypeID="40" isStruct="False">
+      <type isArray="False" type="FLAG_ENUM" schemeID="57"></type>
+      <name isArray="False" type="STRING" schemeID="0">상급가루</name>
+      <imageName isArray="False" type="STRING" schemeID="0">mineDust2</imageName>
+      <diaPrice isArray="False" type="INT" schemeID="0">0</diaPrice>
+      <baseGold isArray="False" type="INT" schemeID="0">0</baseGold>
+      <baseLv isArray="False" type="INT" schemeID="0">0</baseLv>
+      <baseReqMin isArray="False" type="INT" schemeID="0">0</baseReqMin>
+      <baseReqMax isArray="False" type="INT" schemeID="0">0</baseReqMax>
+    </mineDust2>
+    <_0 id="1138" schemeTypeID="99" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">XX병원</name>
+    </_0>
+    <_1 id="1139" schemeTypeID="99" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">피시방</name>
+    </_1>
+    <_2 id="1140" schemeTypeID="99" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">서울디지텍학교</name>
+    </_2>
+    <_3 id="1141" schemeTypeID="99" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">청와대</name>
+    </_3>
+    <_4 id="1142" schemeTypeID="99" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">학교 동아리방</name>
+    </_4>
+    <_5 id="1143" schemeTypeID="99" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">캬바레</name>
+    </_5>
+    <_6 id="1144" schemeTypeID="64" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">요리사</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <unlockableType isArray="False" type="ENUM" schemeID="100">Research</unlockableType>
+      <speechArr isArray="True" type="STRING" schemeID="0">
+        <obj>맛있는 냄새가 나는군요!</obj>
+        <obj>내 직감이 당신은 내가 원하는 걸 가지고 있을 듯 하군요!</obj>
+      </speechArr>
+    </_6>
+    <Order id="1145" schemeTypeID="101" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="100">Order</type>
+      <reqLv isArray="False" type="INT" schemeID="0">0</reqLv>
+      <reqGold isArray="False" type="INT" schemeID="0">100</reqGold>
+    </Order>
+    <GlobalMerchant id="1146" schemeTypeID="101" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="100">GlobalMerchant</type>
+      <reqLv isArray="False" type="INT" schemeID="0">1</reqLv>
+      <reqGold isArray="False" type="INT" schemeID="0">100</reqGold>
+    </GlobalMerchant>
+    <LocalMerchant id="1147" schemeTypeID="101" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="100">LocalMerchant</type>
+      <reqLv isArray="False" type="INT" schemeID="0">1</reqLv>
+      <reqGold isArray="False" type="INT" schemeID="0">100</reqGold>
+    </LocalMerchant>
+    <SearchItem id="1148" schemeTypeID="101" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="100">SearchItem</type>
+      <reqLv isArray="False" type="INT" schemeID="0">1</reqLv>
+      <reqGold isArray="False" type="INT" schemeID="0">100</reqGold>
+    </SearchItem>
+    <BingoMerchant id="1149" schemeTypeID="101" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="100">BingoMerchant</type>
+      <reqLv isArray="False" type="INT" schemeID="0">1</reqLv>
+      <reqGold isArray="False" type="INT" schemeID="0">100</reqGold>
+    </BingoMerchant>
+    <MagicBuff id="1150" schemeTypeID="101" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="100">MagicBuff</type>
+      <reqLv isArray="False" type="INT" schemeID="0">1</reqLv>
+      <reqGold isArray="False" type="INT" schemeID="0">100</reqGold>
+    </MagicBuff>
+    <Research id="1151" schemeTypeID="101" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="100">Research</type>
+      <reqLv isArray="False" type="INT" schemeID="0">1</reqLv>
+      <reqGold isArray="False" type="INT" schemeID="0">100</reqGold>
+    </Research>
+    <_0_1 id="1152" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">주문판1</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">0</unlockReq>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">OrderCount</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">3</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">5</rewardDiaCnt>
+    </_0_1>
+    <_0_2 id="1153" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">주문판2</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">1152</unlockReq>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">OrderCount</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">5</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">10</rewardDiaCnt>
+    </_0_2>
+    <_0_3 id="1154" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">주문판3</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">1153</unlockReq>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">OrderCount</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">10</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">15</rewardDiaCnt>
+    </_0_3>
+    <_0_4 id="1155" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">주문판</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">1154</unlockReq>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">Invalid</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">0</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">0</rewardDiaCnt>
+    </_0_4>
+    <_1_0 id="1156" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작1</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">0</unlockReq>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">CraftCount</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">3</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">20</rewardDiaCnt>
+    </_1_0>
+    <_1_1 id="1157" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작2</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">1156</unlockReq>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">CraftCount</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">5</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">25</rewardDiaCnt>
+    </_1_1>
+    <_1_2 id="1158" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작3</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">1157</unlockReq>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">CraftCount</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">10</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">30</rewardDiaCnt>
+    </_1_2>
+    <_1_3 id="1159" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">제작</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">1158</unlockReq>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">Invalid</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">0</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">0</rewardDiaCnt>
+    </_1_3>
+    <_0 id="1176" schemeTypeID="104" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="103">OrderCount</type>
+      <desc isArray="False" type="STRING" schemeID="0">주문 {0}번 하기</desc>
+    </_0>
+    <_1 id="1177" schemeTypeID="104" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="103">CraftCount</type>
+      <desc isArray="False" type="STRING" schemeID="0">제작 {0}번 하기</desc>
+    </_1>
+    <_2 id="1178" schemeTypeID="104" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="103">CustomerCount</type>
+      <desc isArray="False" type="STRING" schemeID="0">손님접대 {0}번 하기</desc>
+    </_2>
+    <_2_0 id="1179" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">손님접대1</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">CustomerCount</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">2</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">100</rewardDiaCnt>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">0</unlockReq>
+    </_2_0>
+    <_2_1 id="1180" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">손님접대2</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">CustomerCount</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">3</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">100</rewardDiaCnt>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">1179</unlockReq>
+    </_2_1>
+    <_2_2 id="1181" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">손님접대3</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">CustomerCount</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">4</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">100</rewardDiaCnt>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">1180</unlockReq>
+    </_2_2>
+    <_2_3 id="1182" schemeTypeID="102" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">손님접대</name>
+      <image isArray="False" type="STRING" schemeID="0">default</image>
+      <reqAchiev isArray="False" type="ENUM" schemeID="103">Invalid</reqAchiev>
+      <reqAchievCnt isArray="False" type="INT" schemeID="0">0</reqAchievCnt>
+      <rewardDiaCnt isArray="False" type="INT" schemeID="0">0</rewardDiaCnt>
+      <unlockReq isArray="False" type="CUSTOM" schemeID="102">1181</unlockReq>
+    </_2_3>
+    <_picture id="1183" schemeTypeID="114" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">액자</name>
+      <desc isArray="False" type="STRING" schemeID="0">걍액자</desc>
+      <buffArr isArray="True" type="CUSTOM" schemeID="112">
+        <obj>1184</obj>
+      </buffArr>
+      <prefab isArray="False" type="STRING" schemeID="0">default</prefab>
+    </_picture>
+    <s_Buff_1184 id="1184" schemeTypeID="112" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="111">IncCraftSpd</type>
+      <value isArray="False" type="INT" schemeID="0">5</value>
+    </s_Buff_1184>
+    <_vase id="1186" schemeTypeID="114" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">도자기</name>
+      <desc isArray="False" type="STRING" schemeID="0">이힝</desc>
+      <buffArr isArray="True" type="CUSTOM" schemeID="112">
+        <obj>1188</obj>
+      </buffArr>
+      <prefab isArray="False" type="STRING" schemeID="0"></prefab>
+    </_vase>
+    <_fire id="1187" schemeTypeID="114" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">횃불</name>
+      <desc isArray="False" type="STRING" schemeID="0">이힝힝</desc>
+      <buffArr isArray="True" type="CUSTOM" schemeID="112">
+        <obj>1189</obj>
+      </buffArr>
+      <prefab isArray="False" type="STRING" schemeID="0"></prefab>
+    </_fire>
+    <s_Buff_1188 id="1188" schemeTypeID="112" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="111">IncCraftSpd</type>
+      <value isArray="False" type="INT" schemeID="0">5</value>
+    </s_Buff_1188>
+    <s_Buff_1189 id="1189" schemeTypeID="112" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="111">IncCraftSpd</type>
+      <value isArray="False" type="INT" schemeID="0">5</value>
+    </s_Buff_1189>
+    <_lowTable id="1190" schemeTypeID="113" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">저급 테이블</name>
+      <desc isArray="False" type="STRING" schemeID="0">저급</desc>
+      <minSlot isArray="False" type="INT" schemeID="0">5</minSlot>
+      <maxSlot isArray="False" type="INT" schemeID="0">6</maxSlot>
+      <buffArr isArray="True" type="CUSTOM" schemeID="112" />
+      <prefab isArray="False" type="STRING" schemeID="0"></prefab>
+      <slotExpandReqGold isArray="False" type="INT" schemeID="0">300</slotExpandReqGold>
+      <sellPrice isArray="False" type="INT" schemeID="0">1000</sellPrice>
+    </_lowTable>
+    <_midTable id="1191" schemeTypeID="113" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">중급 테이블</name>
+      <desc isArray="False" type="STRING" schemeID="0">중급</desc>
+      <minSlot isArray="False" type="INT" schemeID="0">2</minSlot>
+      <maxSlot isArray="False" type="INT" schemeID="0">4</maxSlot>
+      <buffArr isArray="True" type="CUSTOM" schemeID="112">
+        <obj>1194</obj>
+      </buffArr>
+      <prefab isArray="False" type="STRING" schemeID="0"></prefab>
+      <slotExpandReqGold isArray="False" type="INT" schemeID="0">400</slotExpandReqGold>
+      <sellPrice isArray="False" type="INT" schemeID="0">2000</sellPrice>
+    </_midTable>
+    <_highTable id="1192" schemeTypeID="113" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">고급 테이블</name>
+      <desc isArray="False" type="STRING" schemeID="0">고급</desc>
+      <minSlot isArray="False" type="INT" schemeID="0">3</minSlot>
+      <maxSlot isArray="False" type="INT" schemeID="0">5</maxSlot>
+      <buffArr isArray="True" type="CUSTOM" schemeID="112">
+        <obj>1195</obj>
+      </buffArr>
+      <prefab isArray="False" type="STRING" schemeID="0"></prefab>
+      <slotExpandReqGold isArray="False" type="INT" schemeID="0">500</slotExpandReqGold>
+      <sellPrice isArray="False" type="INT" schemeID="0">3000</sellPrice>
+    </_highTable>
+    <_superTable id="1193" schemeTypeID="113" isStruct="False">
+      <name isArray="False" type="STRING" schemeID="0">최고급 테이</name>
+      <desc isArray="False" type="STRING" schemeID="0">최고급</desc>
+      <minSlot isArray="False" type="INT" schemeID="0">4</minSlot>
+      <maxSlot isArray="False" type="INT" schemeID="0">6</maxSlot>
+      <buffArr isArray="True" type="CUSTOM" schemeID="112">
+        <obj>1196</obj>
+      </buffArr>
+      <prefab isArray="False" type="STRING" schemeID="0"></prefab>
+      <slotExpandReqGold isArray="False" type="INT" schemeID="0">600</slotExpandReqGold>
+      <sellPrice isArray="False" type="INT" schemeID="0">4000</sellPrice>
+    </_superTable>
+    <s_Buff_1194 id="1194" schemeTypeID="112" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="111">IncCraftSpd</type>
+      <value isArray="False" type="INT" schemeID="0">5</value>
+    </s_Buff_1194>
+    <s_Buff_1195 id="1195" schemeTypeID="112" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="111">IncCraftSpd</type>
+      <value isArray="False" type="INT" schemeID="0">10</value>
+    </s_Buff_1195>
+    <s_Buff_1196 id="1196" schemeTypeID="112" isStruct="True">
+      <type isArray="False" type="ENUM" schemeID="111">IncCraftSpd</type>
+      <value isArray="False" type="INT" schemeID="0">15</value>
+    </s_Buff_1196>
+    <_0 id="1197" schemeTypeID="106" isStruct="False">
+      <table isArray="False" type="CUSTOM" schemeID="113">1190</table>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <reqGold isArray="False" type="INT" schemeID="0">200</reqGold>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+    </_0>
+    <_1 id="1198" schemeTypeID="106" isStruct="False">
+      <table isArray="False" type="CUSTOM" schemeID="113">1191</table>
+      <unlockLv isArray="False" type="INT" schemeID="0">1</unlockLv>
+      <reqGold isArray="False" type="INT" schemeID="0">200</reqGold>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+    </_1>
+    <_2 id="1199" schemeTypeID="106" isStruct="False">
+      <table isArray="False" type="CUSTOM" schemeID="113">1192</table>
+      <unlockLv isArray="False" type="INT" schemeID="0">2</unlockLv>
+      <reqGold isArray="False" type="INT" schemeID="0">200</reqGold>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+    </_2>
+    <_3 id="1200" schemeTypeID="106" isStruct="False">
+      <table isArray="False" type="CUSTOM" schemeID="113">1193</table>
+      <unlockLv isArray="False" type="INT" schemeID="0">3</unlockLv>
+      <reqGold isArray="False" type="INT" schemeID="0">200</reqGold>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+    </_3>
+    <_0 id="1201" schemeTypeID="107" isStruct="False">
+      <interior isArray="False" type="CUSTOM" schemeID="114">1183</interior>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <unlockDia isArray="False" type="INT" schemeID="0">0</unlockDia>
+      <reqGold isArray="False" type="INT" schemeID="0">200</reqGold>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+    </_0>
+    <_1 id="1202" schemeTypeID="107" isStruct="False">
+      <interior isArray="False" type="CUSTOM" schemeID="114">1186</interior>
+      <unlockLv isArray="False" type="INT" schemeID="0">1</unlockLv>
+      <unlockDia isArray="False" type="INT" schemeID="0">10</unlockDia>
+      <reqGold isArray="False" type="INT" schemeID="0">200</reqGold>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+    </_1>
+    <_2 id="1203" schemeTypeID="107" isStruct="False">
+      <interior isArray="False" type="CUSTOM" schemeID="114">1187</interior>
+      <unlockLv isArray="False" type="INT" schemeID="0">2</unlockLv>
+      <unlockDia isArray="False" type="INT" schemeID="0">10</unlockDia>
+      <reqGold isArray="False" type="INT" schemeID="0">200</reqGold>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+    </_2>
+    <_0 id="1205" schemeTypeID="108" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="109">Gold</type>
+      <name isArray="False" type="STRING" schemeID="0">골드 10000</name>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+      <desc isArray="False" type="STRING" schemeID="0"></desc>
+      <productID isArray="False" type="STRING" schemeID="0"></productID>
+      <coolTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</coolTime>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>1217</obj>
+      </rewardArr>
+      <price isArray="False" type="STRING" schemeID="0">US 0.99$</price>
+    </_0>
+    <_1 id="1206" schemeTypeID="108" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="109">Gold</type>
+      <name isArray="False" type="STRING" schemeID="0">골드 20000</name>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+      <desc isArray="False" type="STRING" schemeID="0">추가 5000</desc>
+      <productID isArray="False" type="STRING" schemeID="0"></productID>
+      <coolTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</coolTime>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>1218</obj>
+      </rewardArr>
+      <price isArray="False" type="STRING" schemeID="0">US 1.99$</price>
+    </_1>
+    <_2 id="1207" schemeTypeID="108" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="109">Gold</type>
+      <name isArray="False" type="STRING" schemeID="0">골드 30000</name>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+      <desc isArray="False" type="STRING" schemeID="0">추가 10000</desc>
+      <productID isArray="False" type="STRING" schemeID="0"></productID>
+      <coolTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</coolTime>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>1220</obj>
+      </rewardArr>
+      <price isArray="False" type="STRING" schemeID="0">US 2.99$</price>
+    </_2>
+    <_3 id="1208" schemeTypeID="108" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="109">Dia</type>
+      <name isArray="False" type="STRING" schemeID="0">다야 100</name>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+      <desc isArray="False" type="STRING" schemeID="0"></desc>
+      <productID isArray="False" type="STRING" schemeID="0"></productID>
+      <coolTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</coolTime>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>1222</obj>
+      </rewardArr>
+      <price isArray="False" type="STRING" schemeID="0">US 0.99$</price>
+    </_3>
+    <_4 id="1209" schemeTypeID="108" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="109">Dia</type>
+      <name isArray="False" type="STRING" schemeID="0">다야 200</name>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+      <desc isArray="False" type="STRING" schemeID="0">추가 50</desc>
+      <productID isArray="False" type="STRING" schemeID="0"></productID>
+      <coolTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</coolTime>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>1223</obj>
+      </rewardArr>
+      <price isArray="False" type="STRING" schemeID="0">US 1.99$</price>
+    </_4>
+    <_5 id="1210" schemeTypeID="108" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="109">Dia</type>
+      <name isArray="False" type="STRING" schemeID="0">다야 300</name>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+      <desc isArray="False" type="STRING" schemeID="0">추가 100</desc>
+      <productID isArray="False" type="STRING" schemeID="0"></productID>
+      <coolTime isArray="False" type="TIMESPAN" schemeID="0">00:00:00</coolTime>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>1225</obj>
+      </rewardArr>
+      <price isArray="False" type="STRING" schemeID="0">US 2.99$</price>
+    </_5>
+    <_6 id="1211" schemeTypeID="108" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="109">Package</type>
+      <name isArray="False" type="STRING" schemeID="0">초급패키지</name>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+      <desc isArray="False" type="STRING" schemeID="0">골드10000+다야100</desc>
+      <productID isArray="False" type="STRING" schemeID="0"></productID>
+      <coolTime isArray="False" type="TIMESPAN" schemeID="0">365.00:00:00</coolTime>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>1227</obj>
+        <obj>1228</obj>
+      </rewardArr>
+      <price isArray="False" type="STRING" schemeID="0">US 0.99$</price>
+    </_6>
+    <_7 id="1212" schemeTypeID="108" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="109">Package</type>
+      <name isArray="False" type="STRING" schemeID="0">중급패키지</name>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+      <desc isArray="False" type="STRING" schemeID="0">골드20000+다야200</desc>
+      <productID isArray="False" type="STRING" schemeID="0"></productID>
+      <coolTime isArray="False" type="TIMESPAN" schemeID="0">365.00:00:00</coolTime>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>1229</obj>
+        <obj>1230</obj>
+      </rewardArr>
+      <price isArray="False" type="STRING" schemeID="0">US 1.99$</price>
+    </_7>
+    <_8 id="1213" schemeTypeID="108" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="109">Package</type>
+      <name isArray="False" type="STRING" schemeID="0">상급패키지</name>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+      <desc isArray="False" type="STRING" schemeID="0">골드30000+다야300</desc>
+      <productID isArray="False" type="STRING" schemeID="0"></productID>
+      <coolTime isArray="False" type="TIMESPAN" schemeID="0">365.00:00:00</coolTime>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>1231</obj>
+        <obj>1232</obj>
+      </rewardArr>
+      <price isArray="False" type="STRING" schemeID="0">US 2.99$</price>
+    </_8>
+    <_9 id="1214" schemeTypeID="108" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="109">Free</type>
+      <name isArray="False" type="STRING" schemeID="0">페북 추천</name>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+      <desc isArray="False" type="STRING" schemeID="0">페북 광고를 보고 다이아10개</desc>
+      <productID isArray="False" type="STRING" schemeID="0"></productID>
+      <coolTime isArray="False" type="TIMESPAN" schemeID="0">365.00:00:00</coolTime>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>1233</obj>
+      </rewardArr>
+      <price isArray="False" type="STRING" schemeID="0">페북가입하기</price>
+    </_9>
+    <_10 id="1215" schemeTypeID="108" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="109">Free</type>
+      <name isArray="False" type="STRING" schemeID="0">동영상 시청</name>
+      <iconImage isArray="False" type="STRING" schemeID="0">default</iconImage>
+      <desc isArray="False" type="STRING" schemeID="0">페북 광고를 보고 다이아10개</desc>
+      <productID isArray="False" type="STRING" schemeID="0"></productID>
+      <coolTime isArray="False" type="TIMESPAN" schemeID="0">00:30:00</coolTime>
+      <rewardArr isArray="True" type="CUSTOM" schemeID="63">
+        <obj>1234</obj>
+      </rewardArr>
+      <price isArray="False" type="STRING" schemeID="0">광고보기</price>
+    </_10>
+    <s_CostItemInfo_1217 id="1217" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">10000</cnt>
+    </s_CostItemInfo_1217>
+    <s_CostItemInfo_1218 id="1218" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">25000</cnt>
+    </s_CostItemInfo_1218>
+    <s_CostItemInfo_1220 id="1220" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">40000</cnt>
+    </s_CostItemInfo_1220>
+    <s_CostItemInfo_1222 id="1222" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">8</item>
+      <cnt isArray="False" type="INT" schemeID="0">100</cnt>
+    </s_CostItemInfo_1222>
+    <s_CostItemInfo_1223 id="1223" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">8</item>
+      <cnt isArray="False" type="INT" schemeID="0">250</cnt>
+    </s_CostItemInfo_1223>
+    <s_CostItemInfo_1225 id="1225" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">8</item>
+      <cnt isArray="False" type="INT" schemeID="0">400</cnt>
+    </s_CostItemInfo_1225>
+    <s_CostItemInfo_1227 id="1227" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">10000</cnt>
+    </s_CostItemInfo_1227>
+    <s_CostItemInfo_1228 id="1228" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">8</item>
+      <cnt isArray="False" type="INT" schemeID="0">100</cnt>
+    </s_CostItemInfo_1228>
+    <s_CostItemInfo_1229 id="1229" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">20000</cnt>
+    </s_CostItemInfo_1229>
+    <s_CostItemInfo_1230 id="1230" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">8</item>
+      <cnt isArray="False" type="INT" schemeID="0">200</cnt>
+    </s_CostItemInfo_1230>
+    <s_CostItemInfo_1231 id="1231" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">7</item>
+      <cnt isArray="False" type="INT" schemeID="0">30000</cnt>
+    </s_CostItemInfo_1231>
+    <s_CostItemInfo_1232 id="1232" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">8</item>
+      <cnt isArray="False" type="INT" schemeID="0">300</cnt>
+    </s_CostItemInfo_1232>
+    <s_CostItemInfo_1233 id="1233" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">8</item>
+      <cnt isArray="False" type="INT" schemeID="0">20</cnt>
+    </s_CostItemInfo_1233>
+    <s_CostItemInfo_1234 id="1234" schemeTypeID="63" isStruct="True">
+      <item isArray="False" type="CUSTOM" schemeID="40">8</item>
+      <cnt isArray="False" type="INT" schemeID="0">10</cnt>
+    </s_CostItemInfo_1234>
+    <_0 id="1235" schemeTypeID="105" isStruct="False">
+      <item isArray="False" type="CUSTOM" schemeID="40">58</item>
+      <desc isArray="False" type="STRING" schemeID="0"></desc>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <reqGold isArray="False" type="INT" schemeID="0">100</reqGold>
+    </_0>
+    <_1 id="1236" schemeTypeID="105" isStruct="False">
+      <item isArray="False" type="CUSTOM" schemeID="40">59</item>
+      <desc isArray="False" type="STRING" schemeID="0"></desc>
+      <unlockLv isArray="False" type="INT" schemeID="0">1</unlockLv>
+      <reqGold isArray="False" type="INT" schemeID="0">150</reqGold>
+    </_1>
+    <_2 id="1237" schemeTypeID="105" isStruct="False">
+      <item isArray="False" type="CUSTOM" schemeID="40">60</item>
+      <desc isArray="False" type="STRING" schemeID="0"></desc>
+      <unlockLv isArray="False" type="INT" schemeID="0">2</unlockLv>
+      <reqGold isArray="False" type="INT" schemeID="0">200</reqGold>
+    </_2>
+    <_3 id="1238" schemeTypeID="105" isStruct="False">
+      <item isArray="False" type="CUSTOM" schemeID="40">61</item>
+      <desc isArray="False" type="STRING" schemeID="0"></desc>
+      <unlockLv isArray="False" type="INT" schemeID="0">3</unlockLv>
+      <reqGold isArray="False" type="INT" schemeID="0">250</reqGold>
+    </_3>
+    <_4 id="1239" schemeTypeID="105" isStruct="False">
+      <item isArray="False" type="CUSTOM" schemeID="40">62</item>
+      <desc isArray="False" type="STRING" schemeID="0"></desc>
+      <unlockLv isArray="False" type="INT" schemeID="0">4</unlockLv>
+      <reqGold isArray="False" type="INT" schemeID="0">300</reqGold>
+    </_4>
+    <_5 id="1240" schemeTypeID="105" isStruct="False">
+      <item isArray="False" type="CUSTOM" schemeID="40">63</item>
+      <desc isArray="False" type="STRING" schemeID="0"></desc>
+      <unlockLv isArray="False" type="INT" schemeID="0">5</unlockLv>
+      <reqGold isArray="False" type="INT" schemeID="0">350</reqGold>
+    </_5>
+    <_0 id="1241" schemeTypeID="115" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="97">Bread</type>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem0</imageName>
+      <unlockLv isArray="False" type="INT" schemeID="0">0</unlockLv>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">0</unlockReqGold>
+    </_0>
+    <_1 id="1242" schemeTypeID="115" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="97">Japanese</type>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem5</imageName>
+      <unlockLv isArray="False" type="INT" schemeID="0">1</unlockLv>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">300</unlockReqGold>
+    </_1>
+    <_2 id="1243" schemeTypeID="115" isStruct="False">
+      <type isArray="False" type="ENUM" schemeID="97">Western</type>
+      <imageName isArray="False" type="STRING" schemeID="0">craftedItem10</imageName>
+      <unlockLv isArray="False" type="INT" schemeID="0">2</unlockLv>
+      <unlockReqGold isArray="False" type="INT" schemeID="0">500</unlockReqGold>
+    </_2>
+  </contentDic>
+</root>
